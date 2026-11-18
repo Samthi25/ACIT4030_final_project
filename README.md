@@ -12,7 +12,11 @@ This project, developed by a group of three students, improves the Neural Radian
 ```text
 ACIT4030-NeRF/
 ├── ML3DProject_final.ipynb  # Data loading, baseline, improved models, and evaluation
-└── README.md
+├── README.md                # Project documentation
+└── outputs/                 # Training results and model outputs
+    ├── lego/                # Lego scene results
+    ├── poster/              # Poster scene results
+    └── summary/             # Overall results summary
 ```
 
 The course data (`lego/`, `poster/`, and `load_nerf_data.py`) is not included in this repository. The notebook installs its dependencies in Google Colab, so a local `requirements.txt` is not needed to run it as described below.
