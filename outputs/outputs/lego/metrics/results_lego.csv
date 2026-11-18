@@ -1,0 +1,3 @@
+model,PSNR (dB),SSIM,LPIPS,train min,peak GPU GB
+Baseline NeRF (10k),21.62,0.862,0.147,14.0,7.49
+D-NeRF (10k),23.3,0.867,0.108,14.4,3.89
